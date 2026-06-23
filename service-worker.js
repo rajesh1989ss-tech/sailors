@@ -5,13 +5,22 @@
      falling back to cache when offline.
    - Bump CACHE_VERSION whenever you upload a new sailors_9.html to force a refresh.
 */
-const CACHE_VERSION = 'sailors-v2';
+const CACHE_VERSION = 'sailors-v5';
 const APP_SHELL = [
   './',
   './sailors_9.html',
   './manifest.json',
   './icon-192.png',
-  './icon-512.png'
+  './icon-512.png',
+  './tile-tasks.png',
+  './tile-questions.png',
+  './tile-observations.png',
+  './tile-reqs.png',
+  './tile-nearmiss.png',
+  './tile-cal.png',
+  './tile-reports.png',
+  './tile-joblists.png',
+  './tile-crewlist.png'
 ];
 
 self.addEventListener('install', (event) => {
