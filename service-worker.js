@@ -5,7 +5,7 @@
      falling back to cache when offline.
    - Bump CACHE_VERSION whenever you upload a new sailors_9.html to force a refresh.
 */
-const CACHE_VERSION = 'sailors-v1';
+const CACHE_VERSION = 'sailors-v2';
 const APP_SHELL = [
   './',
   './sailors_9.html',
